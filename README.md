@@ -55,3 +55,10 @@ FR5.2: The system shall assign disputes to a panel of community validators or le
 FR5.3: The system shall track the status of each dispute and allow all parties to upload supporting evidence.
 
 FR5.4: The system shall log dispute outcomes immutably on the blockchain.
+
+The scalability of this system is achieved through decentralized access and reduced administrative bottlenecks. By eliminating manual processes, paperwork, and centralized verification, the system can handle a larger volume of verified transactions and simultaneous requests from many users more efficiently than traditional systems.
+
+
+Fault Tolerance is a core feature due to distribution and redundancy. Since the complete land registry record is distributed and stored across multiple, independent nodes, the failure or compromise of any single node does not affect the availability or integrity of the data. Every node (computer) in the network has a full copy of the entire ledger (all the blocks). If one node or a small number of nodes fail, the rest of the network continues operating and serving the data, ensuring high availability (24/7 access).
+
+Collaboration is enforced through a shared, tamper-proof source of truth and consensus mechanisms. The blockchain acts as a single, verified source of land data that all stakeholders (government agencies, banks, notaries, buyers, and sellers) must agree upon (collaborate on) for a transaction to be added to the ledger. This removes the reliance on bilateral trust and makes information sharing seamless and immediate.
