@@ -29,15 +29,22 @@ FR2.4: The system shall notify validators to approve or reject a registration re
 FR2.5: Once approved, the system shall mint a tokenized land title to the owner’s wallet address.
 
 3. Land Ownership Verification
-   FR3.1: The system shall allow any user to search land records using parameters like land ID, owner name, location, etc.
-   FR3.2: The system shall retrieve the current ownership status directly from the blockchain.
-   FR3.3: The system shall display a land title summary, ownership history, and document hash.
+
+FR3.1: The system shall allow any user to search land records using parameters like land ID, owner name, location, etc.
+
+FR3.2: The system shall retrieve the current ownership status directly from the blockchain.
+
+FR3.3: The system shall display a land title summary, ownership history, and document hash.
 
 4. Land Transactions (Smart Contracts)
-   FR4.1: The system shall allow users to initiate land transfers by entering buyer, seller, and payment details.
-   FR4.2: The system shall automatically execute land transfers via a smart contract once payment is confirmed.
-   FR4.3: The system shall update ownership records on the blockchain post-transaction.
-   FR4.4: The system shall log all transactions in a public transaction ledger.
+
+FR4.1: The system shall allow users to initiate land transfers by entering buyer, seller, and payment details.
+
+FR4.2: The system shall automatically execute land transfers via a smart contract once payment is confirmed.
+
+FR4.3: The system shall update ownership records on the blockchain post-transaction.
+
+FR4.4: The system shall log all transactions in a public transaction ledger.
 
 5. Dispute Management
 
