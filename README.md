@@ -3,6 +3,7 @@ _A BLOCKCHAIN-BASED LAND REGISTRY SYSTEM_
 Since from time immemorial, the problems of land have persisted in Cameroon, Africa and the world at large. some of these problems have resulted in wars leading to the lost of lives. The issue has always been that people argue on who has what piece of land with people selling their land to more than one person and others selling land that doesn’t belong to them. Even when the land titles papers were brought the problem still persisted because people could still create fakes and then we are right back to where we started. I take an example of a case beside me where someone is building a fence on the road. It may not be known how the land was Partitioned when the people were selling but one thing is for sure they have sown into the road and there is no evidence to show that the fence is on the road or that part of the land was separated as a road so we are forced to accept it. This is how the existing land registry system looks like;
 
 ![Figure 1. Traditional land registry system](image.png)
+*Figure 1. Traditional land registry system*
 
 
 The issue with the existing land registry system is that In the existing land registry system, the land registrar cannot verify any existing dues on the land and
@@ -91,6 +92,7 @@ FR5.3: The system shall track the status of each dispute and allow all parties t
 FR5.4: The system shall log dispute outcomes immutably on the blockchain.
 
 ![Figure. 2 Block overview of the proposed solution](image-1.png)
+*Figure. 2 Block overview of the proposed solution*
 
 Government Authority: This enterprise is supplied with a unique deal with that can't be surpassed directly to every other district
 resident or different member of Blockchain. This enterprise will begin with a application that manages the genesis block. In the
@@ -113,10 +115,63 @@ reasons.
 
 The system will be a distributed system. A distributed system is system where the independent computers collaborate over a network to achieve a common goal. Distributed systems are always determined by the ability of the system to do certain things. Some of these things are; the nodes must be separated but communicate through a network to achieve a goal, no global time or state, and the system must be transparent. Once a system is built as distributed, it will always be scalability, fault tolerance and allow for collaboration because of those characteristics. All these attributes of scalability, fault tolerance and collaboration can be seen in this system as explained below.
 
+
 The scalability of this system is achieved through decentralized access and by reducing administrative bottlenecks. By eliminating manual processes, paperwork, and centralized verification, the system can handle a larger volume of verified transactions and simultaneous requests from many users more efficiently than traditional systems. 
 
 Fault Tolerance is a core feature of this system due to distribution and redundancy. Since the complete land registry record is distributed and stored across multiple, independent nodes, the failure or compromise of any single node on the network does not affect the availability or integrity of the data. Every node (computer) in the network has a full copy of the entire ledger (all the blocks). If one node or a small number of nodes fail, the rest of the network continues operating and serving the data, ensuring high availability (24/7 access).
 
 Collaboration is enforced through a shared, tamper-proof source of truth and consensus mechanisms. The blockchain acts as a single, verified source of land data that all stakeholders (government agencies, banks, notaries, buyers, and sellers) must agree upon (collaborate on) for a transaction to be added to the ledger. This increases trust since people do not have to assess the trustworthiness of the intermediary or other participants in the network. It is sufficient if people solely build trust in the system as a whole. The absence of intermediaries also fosters data security. The current practice of third parties collecting personal data implies the risk of security breaches. By utilizing the blockchain third parties can become obsolete, ultimately increasing user’s security.
 
+
+*Technologies used*
+This chapter discusses the various tools, technologies and standards used to build
+the project. The tools are chosen considering their pros and cons, project scalability
+concerns and sometimes adhering to governmental requirements. Some of the tools
+are from new startups and under active development.
+
+*Blockchain*
+A blockchain is a decentralized database that is shared between network nodes and which is
+a type of data storage system that stores information electronically. Blockchains are known
+for their use in transactional systems in the industry, where it help to keep a secure and
+decentralized record of transactions. The blockchain's originality guarantees better accuracy
+and security of records, allowing to trust the system without requiring a trusted intermediary
+party. 
+
+
+*Ethereum Blockchain*
+Ethereum is a decentralized blockchain network that is free to use. It allows anyone to create
+and use blockchain-based decentralized applications. Ethereum is an open-source project
+maintained by many people throughout the world, just like Bitcoin. No one controls or owns
+Ethereum. It was created with the intention of being adjustable and versatile. On the
+Ethereum platform, it is simple to construct new apps, and with the recent Homestead release,
+those apps are now much safer to use.
+
+*Solidity*
+Solidity is a high-level object-oriented language derived from C++, Python, and JavaScript
+for creating smart contracts. Smart contracts are computer programs that control how
+accounts behave in the Ethereum chain. Solidity is a statically typed curly-braces
+programming language that is used to develop smart contracts and is also aimed toward the
+Ethereum Virtual Machine (EVM). It refers to currently executing contract instance
+using keyword "this". Messages can be sent to other contract or the current contract by
+the contract function, also with some gas fee and some amount of virtual money. An
+implicit variable called "msg" holds details of the current message call. The information
+includes caller address (i.e msg.sender), amount of money sent(i.e msg.value), etc.
+
+
+*Smart Contract*
+Smart contracts are simple programs that are used to automate and streamline the
+implementation of an agreement so that all parties, without the need for any intermediaries
+that run on a blockchain
+
+
+*React JS*
+ReactJS is a front-end JavaScript library for creating user interfaces using UI components
+that are open-source. Meta and a community of individual developers and businesses
+support it. With frameworks like Next.js, React may be used as a foundation for developing
+single-page, mobile, or server-rendered applications. React, on the other hand, is solely
+concerned with state management and rendering that information to the Document Object
+Model (DOM), so constructing React apps frequently necessitates the usage of different
+frameworks for routing and client-side functionality. 
+
+![alt text](image-3.png)
 
