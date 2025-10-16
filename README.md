@@ -222,3 +222,47 @@ manager can only enter the details of the land in that village.
 2) Actions: Each asset characteristic includes numerous categories. An algorithm is designed that guarantees that there is no need
 for any central authority to confirm what's being done with your complete process. It is essential to recognize that a landowner
 can sell the complete world, that is, no partial transaction is allowed.
+
+In this system, we provide the client Id, ledger Id and the asset Id to uniquely
+identify an asset on the blockchain using 0xcert. This is the first line of defense, since
+50knowing any asset details will first require access to the above key details.
+The URL address of the asset metadata file can be obtained by the hacker easily
+since it is publicly available. Sensitive details should not be included in the metadata
+file. I performed a few experiments to see if the asset information truthiness gets
+verified upon modifying the files on the static-server.
+Following attributes were modified from asset metadata file-
+• Asset schema URL
+• Asset evidence URL
+• Name
+• Description
+• Lease Information
+Following attributes were changed from asset evidence file-
+• data.nodes - This includes Merkle tree[43] hashes.
+• data.values - This will require modification similar to the asset metadata changes.
+Reconstructing the Merkle tree in this file after changing both the files is a
+challenge for the hacker.
+If the location of the asset evidence and asset metadata files is changed by
+manipulating their locations stored in the MySQL database, this has to change
+in the asset metadata and evidence files too. If the file contents change by any
+means, generating the exact match of the hashes in the Merkle tree is a hard to solve
+problem. Hashes are one-way and deterministic that makes them reliable to use for
+securing blockchain. With higher computing power, even if the hashes are somehow
+reconstructed, the real strength lies in the use of imprint stored on the blockchain.
+The imprint was a result of hashing asset information at the time of creation. Due
+to this, any slight modification will result in hash mismatch during verification. We
+can construct one more barrier while developing the system by allowing access of the
+51verification API only to authorized personnel.
+15 different assets were used by me to test the verification process. All types
+of data tampering failed the verification test. This implies that any document
+modification or access to sensitive information is not possible for an attacker or users
+without proper authorization.
+
+Future Scope
+The future of this project is open to a wide range of possibilities. The main
+challenge in building decentralized applications is a steep learning curve for Solidity
+smart contract development. Frameworks like 0xcert make this work easy, so the
+developer can only focus on the use case. The user interface and user management
+features can be added in the future. Many different types of transactions are possible
+when dealing with property contracts. Real world use-cases of land registration and
+dealership can be studied, implemented and be made to fit the concept of smart
+contracts through this project.
