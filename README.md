@@ -175,3 +175,50 @@ frameworks for routing and client-side functionality.
 
 ![alt text](image-3.png)
 
+D. Methodology
+A fragmented app is a computer program that runs on multiple computer systems, that's a distributed computer system. DApp is an
+application that makes use of smart contracts to create computer-based compliance. These responsibilities are much like ordinary
+and traceable features and can't be undone. Wise contracts assist us to trade money, assets or something with fee to keep away from
+the common man or woman from the conventional land registration process.
+
+
+![alt text](image-4.png)
+
+Smart contracts are applied to a powerful Ethereum Virtual (EVM) machine, wherein the entire Ethereum node is responsible for
+contracting. DApp could have a frontend (web) that makes calls to its backend (smart contract) using the web3.js API. Web3.js is a
+group of libraries that permit us to engage with nearby or far off Ethereum environments, use HTTP or IPC communications, and
+permit us to carry out tasks together with moving Ether from one account to some other, reading and writing data.We use smart contracts. Web3.js communicates with Ethereum Blockchain the use of JSON RPC. Web3.js allows us to apply on
+every Ethereum node the use of JSON RPC to examine and write data. In conjunction with the smart Blockchain agreement, web3.js
+frequently connects to the wallet, one of the most popular browser wallets MetaMask. MetaMask is a simple browser extension that
+works as a bridge that allows you to visit a distributed web. It additionally allows you to apply the authentic Ethereum programs in
+anybody's browser; right here we do now no longer want to apply the entire Ethereum node. Anyone who desires to use the platform
+needs to create a brand new Ethereum account whilst logging in and the use of that account to send and receive Ether and that
+account can use DApps. After creating an account, you're given a phrase which you want to maintain someplace else and may be
+used when a person forgets their password. If anybody already has an Ethereum wallet, they could use a massive network, wherein
+they need to use actual Ethers i.e. actual money, or use some other DApp that works on test networks that give you free ether to test
+DApp like Ropsten Test Network or something extensively available. You can get free ethers from the test networks to check your
+DApp. The wallet will connect with a backend blockchain node and ship a request to Blockchain. Ganache can be used to set up a
+personal Ethereum Blockchain to check our stable Solidity contracts. Ganache is an extremely good system for setting up Ethereum
+nodes and getting commenced with blockchain development. Ganache gives a listing of 10 addresses with a default balance of
+100.00 ETH. You can use this to check your DApp.
+A separate software designed to make the registration of land and the sale of land transparent and extended without the involvement
+of any valuable authority. ReactJS is used right here to maximize the robustness and sturdiness that may be developed withinside the
+Ethereum blockchain used on the end. It is a JavaScript framework used to create one-page programs. A strong contract in the end
+that makes the alternative application clear.
+
+
+The contract has two main functions.
+1) Registration: In this a part of the venture the user needs to provide global information to government officials who are also
+senior executives. Each area has a different manager, you may input the location details of these clients. The land to which the
+regulator needs to be registered must be withinside the location wherein the supervisor is registered. The main manager verifies
+the info of the modern facts after which enters the series. The information registered at the software is split into country, state,
+area, survey number, owners address, market value. Using those places the ID identifies the first four details of the location in
+question. This ID is generated the use of the computeId () function calculated using the SHA256 set of rules. Values entered at
+the registration form from the start are transferred to the backend using the “Registration ()” function and the details are linked
+using the unique ID generated through the above fields. Later mapping makes it less complicated to discover a place. Another
+form is available on the registration page, that is, to add a senior manager. When you enter the manager's address and the home
+where he or she works, the form is supported. The village is located at an address that makes it easy to check that the district
+manager can only enter the details of the land in that village.
+2) Actions: Each asset characteristic includes numerous categories. An algorithm is designed that guarantees that there is no need
+for any central authority to confirm what's being done with your complete process. It is essential to recognize that a landowner
+can sell the complete world, that is, no partial transaction is allowed.
