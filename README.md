@@ -1,15 +1,40 @@
 _A BLOCKCHAIN-BASED LAND REGISTRY SYSTEM_
 
-Since from time immemorial, the problems of land have persisted in Cameroon, Africa and the world at large. some of these problems have resulted in wars leading to the lost of lives. The issue has always been that people argue on who has what piece of land with people selling their land to more than one person and others selling land that doesn’t belong to them. Even when the land titles papers were brought the problem still persisted because people could still create fakes and then we are right back to where we started. I take an example of a case beside me where someone is building a fence on the road. It may not be known how the land was Partitioned when the people were selling but one thing is for sure they have sown into the road and there is no evidence to show that the fence is on the road or that part of the land was separated as a road so we are forced to accept it.
+Since from time immemorial, the problems of land have persisted in Cameroon, Africa and the world at large. some of these problems have resulted in wars leading to the lost of lives. The issue has always been that people argue on who has what piece of land with people selling their land to more than one person and others selling land that doesn’t belong to them. Even when the land titles papers were brought the problem still persisted because people could still create fakes and then we are right back to where we started. I take an example of a case beside me where someone is building a fence on the road. It may not be known how the land was Partitioned when the people were selling but one thing is for sure they have sown into the road and there is no evidence to show that the fence is on the road or that part of the land was separated as a road so we are forced to accept it. This is how the existing land registry system looks like;
 
-People have been dragged into deals that they did not know that were fake and afterwards they see people farming on their lands others even go the next day to see building materials while others have gone to see houses and fences already being built on the land they claim to have purchased. The problem is that who will they address this injustice to. Most of the people that have these problems do not know how to resolve them. some even go as far as taking matters into their own hands which end up resulting in conflicts and wars and in the end, there is bloodshed for nothing. There are conflict resolutions methods that have been put in place by the government but the transparency and access to these methods are sometimes costly and some even end in injustice. 
+![Figure 1. Traditional land registry system](image.png)
+
+
+The issue with the existing land registry system is that In the existing land registry system, the land registrar cannot verify any existing dues on the land and
+registrar will act assuming that all the land dues are clear . The registry office only makes a record of land
+transactions, and it works based on the payment proof submitted by the seller and buyer but cannot verify its
+validity independently and actual payment made. The corruption in the current system led to the rise of
+the unidentified owners as well as it makes the record updating process tedious and costly due this reason poor
+farmers cannot register the land title under their name, and consequently they become inaccessible to various
+government schemes like loan on low rate, loan waivers and support for cultivation. The informal moneylenders
+are trapping the poor farmers in the absence of any formal land title for money lending, and they pay the very
+high cost on the lending amount and in the majority of cases are unable to repay the loan amount. The land
+registry system depends upon the government departments for processing and the verification. As all the land
+register database are not connected to the land registry system, it reduces the efficiency and equality of
+the system. There are many issues related to Paper-based land registry system that has been summarized in this
+section. As the land registry system is not digitalized, it is prone to the alteration. The process of land
+registery is lenghthy and requires lots of paper verification, physical visits, check and bribery at every stage that
+causes a lot of delay and wastage of time and money. Availability of record is another major issue as
+the process of land registry involves a change of owners from time to time that takes time and it can not provide
+real time details for any verification. Assessing these records require time, lots of visits and bribery and that
+records also may not be synchronized. Land title issue is very conflict arising matter as most of the cases in
+the court of land related issues are of land title dispute due to various reasons like double spending, fake records
+and unable to rightly identify the genuine owners. Land double spending issue arises due to
+the synchronization issue in the land registry system, and it is prone to tampering. The same person can sell
+the same piece of land to multiple parties, and it can be traced at the later stage when the land mutation is being
+done. Paper-based systems are very much prone to such issues.
 
 this is where the blockchain land registry system comes in. Blockchain is an evolving technology with high security where information is stored in blocks and kept on different nodes. A blockchain consists of data sets which are composed of a chain of data packages (blocks) where a block comprises multiple transactions. The blockchain is extended by each additional block and hence represents a complete ledger of the transaction history. Blocks can be validated by the network using cryptographic means. In addition to the transactions, each block contains a timestamp, the hash value of the previous block (‘‘parent’’), and a nonce, which is a random number for verifying the hash. This concept ensures the integrity of the entire blockchain through to the first block (‘‘genesis block’’). Hash values are unique and fraud can be effectively prevented since changes of a block in the chain would immediately change
-the respective hash value. If the majority of nodes in the network agree by a consensus mechanism on the validity of transactions in a block and on the validity of the block itself, the block can be added to the chain. According to Swanson (2015), this consensus mechanism ‘‘is the process in which a majority (or in some cases all) of network validators come to agreement on the state of a ledger. It is a set of rules and procedures that allows maintaining coherent set of facts between multiple participating nodes’’. Therefore, new transactions are not automatically added to the ledger. Rather, the consensus process ensures that these
+the respective hash value. If the majority of nodes in the network agree by a consensus mechanism on the validity of transactions in a block and on the validity of the block itself, the block can be added to the chain. This consensus mechanism ‘‘is the process in which a majority (or in some cases all) of network validators come to agreement on the state of a ledger. It is a set of rules and procedures that allows maintaining coherent set of facts between multiple participating nodes’’. Therefore, new transactions are not automatically added to the ledger. Rather, the consensus process ensures that these
 transactions are stored in a block for a certain time (e.g., 10 min in the Bitcoin blockchain) before being transferred to the ledger. Afterwards, the information in the blockchain
 can no longer be changed. In the case of Bitcoin, blocks are created by so-called miners who are rewarded with Bitcoins for validating the blocks. The example of Bitcoin illustrates that the principle of the blockchain cannot only change the process of money transactions. Using cryptography, people all over the world can trust each other and transfer different kinds of assets peer-to-peer over the internet. Here, people can upload their land documents and there is transparency as to who own what piece of land. It is also important to note that not every document is accepted as a land ownership document, it must have been approved by the government and the people involved in land transaction. and when a land is bought or sown there are details about it and if there are disputes, they can be resolved through the system.
 
-This is a web platform that allows its users to create and manage accounts for which they are able to upload their land details, initiate land transactions, manage disputes and get notifications.
+This system will be a web platform that allows its users to create and manage accounts for which they are able to upload their land details, initiate land transactions, manage disputes and get notifications.
 
 1. User Management
 
@@ -64,6 +89,27 @@ FR5.2: The system shall assign disputes to a panel of community validators or le
 FR5.3: The system shall track the status of each dispute and allow all parties to upload supporting evidence.
 
 FR5.4: The system shall log dispute outcomes immutably on the blockchain.
+
+![Figure. 2 Block overview of the proposed solution](image-1.png)
+
+Government Authority: This enterprise is supplied with a unique deal with that can't be surpassed directly to every other district
+resident or different member of Blockchain. This enterprise will begin with a application that manages the genesis block. In the
+following step, site IDs are nevertheless dispensed among the addresses of the respective proprietors. Any sort of disputed land or
+actual land misplaced because of unavoidable natural situations may be declared null and void by the address of government
+officials. Therefore, such tokens will now no longer be eligible for any switch of possession. This is the legal deal with and has the
+electricity to terminate the operation of the system by declaring that all tokens are invalid and do not work in the event of an
+emergency or non-natural disassembly.
+Land Owner: All assets IDs may be mapped to the address of the proprietor who has the ability to break up tokens into smaller
+tokens and transfer possession of map tokens amongst different nodes in Blockchain with the permission of the brand-new
+proprietor or new member of Blockchain. If tokens are mapped with owner's address called blank and blank, the tokens will now no
+longer be able to parse or switch them, despite the fact that the unique owners' records will continue to be valid.
+Non-members of Blockchain: Any citizen of the country, after confirmation of a proper national record-keeping system, may also be
+a part of Blockchain without any other form of agreement to be met. The node can most effectively view information of residences
+which can be on sale by present landowners. After obtaining possession of a specific a part of the token, the address is added to the
+genesis block and referred to as the current token owner. The transaction is recorded on a blockchain similar to requests made by the
+vendor and the buyer. The above businesses work simultaneously to maintain the integrity of the system. The luxury of moving land
+possession with none sort of office work or criminal strategies eliminates the problem of investing money and time for trivial
+reasons.
 
 The system will be a distributed system. A distributed system is system where the independent computers collaborate over a network to achieve a common goal. Distributed systems are always determined by the ability of the system to do certain things. Some of these things are; the nodes must be separated but communicate through a network to achieve a goal, no global time or state, and the system must be transparent. Once a system is built as distributed, it will always be scalability, fault tolerance and allow for collaboration because of those characteristics. All these attributes of scalability, fault tolerance and collaboration can be seen in this system as explained below.
 
