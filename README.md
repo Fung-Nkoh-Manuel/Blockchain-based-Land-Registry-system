@@ -1,6 +1,61 @@
 _A BLOCKCHAIN-BASED LAND REGISTRY SYSTEM_
 
-Since from time immemorial, the problems of land have persisted in Cameroon, Africa and the world at large. some of these problems have resulted in wars leading to the lost of lives. The issue has always been that people argue on who has what piece of land with people selling their land to more than one person and others selling land that doesn’t belong to them. Even when the land titles papers were brought the problem still persisted because people could still create fakes and then we are right back to where we started. I take an example of a case beside me where someone is building a fence on the road. It may not be known how the land was Partitioned when the people were selling but one thing is for sure they have sown into the road and there is no evidence to show that the fence is on the road or that part of the land was separated as a road so we are forced to accept it. This is how the existing land registry system looks like;
+Since from time immemorial, the problems of land have persisted in Cameroon, Africa and the world at large. some of these problems have resulted in wars leading to the lost of lives. The issue has always been that people argue on who has what piece of land with people selling their land to more than one person and others selling land that doesn’t belong to them. Even when the land titles papers were brought the problem still persisted because people could still create fakes and then we are right back to where we started. I take an example of a case beside me where someone is building a fence on the road. It may not be known how the land was Partitioned when the people were selling but one thing is for sure they have sown into the road and there is no evidence to show that the fence is on the road or that part of the land was separated as a road so we are forced to accept it. 
+
+LAND REGISTRY SYSTEM
+The Fundamentals of a land registry system can be mainly into four sections:
+a. Unique identification: The main aim of the land registry system is to identify the right/ genuine owner of
+the land and then finally submit the documents for registration. Currently, the user identification process
+is not readily available and standardized. The existing blockchain technology built in a fashion that does
+not require to disclose the identity of the user [6].
+b. Initial transition process: Blockchain is and the mechanism that can be used to validate and store all
+the land-related transitions and it can be further used to transfer the land ownership records [6].
+Before applying the blockchain technology for land transition, the existing land title records to be
+registered in the blockchain that is referred as the genesis block. All the parties involved in the system
+must agree to it before proceeding further on [6].
+c. Consent Principle: The permission of the real owner as per the land record is necessary to transfer
+the land to the buyer. The main issues identified during this process are:
+ Identification of the genuine owner.
+ Availability of digital signatures to all the users/ owners.
+ The mechanism or the middle man to verify the coercion/transfer under threat without free will.
+In the blockchain, the idea is to remove any middle man but in this case coercion cannot be checked [6].
+d. Publicity of records/ownership databases: The main idea is to make record easily accessible and trusted
+that could be either publically available for inspection or any trusted third party that can cater the needs of
+a probable purchaser [6].
+The present paper-based traditional land registry system has been presented in Figure 1 that can be
+defined in the following steps:
+a. Step-1: Verifiaction of property
+In the current land registry system, all the documentation is done physically with paper and verified by
+checking physical registers. The land buyer will ask for the copy of the land title from the seller to get it
+verified by the registry office [7, 8].
+b. Step-2: Pre-agreemet B/W seller and buyer
+When the buyer gets the satisfactory results (authentication) from the registry department, then he/she
+further can approach the seller for the pre-agreement.
+c. Step-3.0: Sales deeds
+The buyer will approach the notary department to prepare the official documents for the transfer of land.
+Notary department will consult the revenue department for the stamp duty on the land and inform
+the required stamp duty to the buyer.
+Step-3.1: Surveyor
+At the same time, the buyer will approach the surveyor department to verify the actual physical
+measurements and location of the land as specified in the land record/papers. If the buyer gets
+the satisfactory result from the surveyor, then he can proceed to the registration office with the official
+documents given by the notary department and pay the requisite registration fee in the form of stamp duty
+and other charges applicable based on the notary documents.
+d. Step-4: Registration department
+After receiving the official documents from the buyer send it to the recording office. Recording office
+Take Buyer, seller identity and verify it. After verification Recording Office take the Photo, Biometrics of
+all parties (seller, buyer, and witnesses), id and photo, and payment fees proof to be included in
+the official land record paper. Recording office then submits the final official documents to
+the registration department.
+e. Step-5: Land mutation
+Registration department then sends this official paper to the land mutation department and to transfer
+the land ownership.
+f. Step-6: Registry department
+Land mutation department then submits and update all the land documents to the revenue and registry
+department for the final updating of the records.
+
+
+This is how the existing land registry system looks like;
 
 ![Figure 1. Traditional land registry system](image.png)
 *Figure 1. Traditional land registry system*
@@ -266,3 +321,1033 @@ features can be added in the future. Many different types of transactions are po
 when dealing with property contracts. Real world use-cases of land registration and
 dealership can be studied, implemented and be made to fit the concept of smart
 contracts through this project.
+
+Project Calendar: Blockchain Land Registry System
+
+Start Date: October 16, 2025
+End Date: April 15, 2026
+Objective: Develop a blockchain-based land registry system with Next.js, Ethereum, IPFS, and USSD/SMS support.
+
+
+
+
+
+
+
+Phase
+
+
+
+Task
+
+
+
+Functional Requirements
+
+
+
+Start Date
+
+
+
+End Date
+
+
+
+Duration
+
+
+
+Milestone
+
+
+
+
+
+Phase 1: Planning and Setup
+
+
+
+
+
+
+
+
+
+
+
+10/16/2025
+
+
+
+11/02/2025
+
+
+
+2.5 weeks
+
+
+
+Project plan completed
+
+
+
+
+
+
+
+
+
+Research blockchain (Ethereum, Solidity), Next.js, IPFS, and USSD APIs
+
+
+
+-
+
+
+
+10/16/2025
+
+
+
+10/26/2025
+
+
+
+1.5 weeks
+
+
+
+Understanding of tech stack
+
+
+
+
+
+
+
+
+
+Set up development environment (Node.js, Truffle, Next.js, MongoDB, Infura)
+
+
+
+-
+
+
+
+10/27/2025
+
+
+
+11/02/2025
+
+
+
+1 week
+
+
+
+Dev environment ready
+
+
+
+
+
+Phase 2: User Management
+
+
+
+
+
+
+
+FR1.1–FR1.3
+
+
+
+11/03/2025
+
+
+
+11/23/2025
+
+
+
+3 weeks
+
+
+
+User management functional
+
+
+
+
+
+
+
+
+
+Develop user registration and KYC API (Node.js, MongoDB)
+
+
+
+FR1.1, FR1.2
+
+
+
+11/03/2025
+
+
+
+11/16/2025
+
+
+
+2 weeks
+
+
+
+User registration with KYC
+
+
+
+
+
+
+
+
+
+Implement role-based access control (JWT, admin/validator roles)
+
+
+
+FR1.3
+
+
+
+11/17/2025
+
+
+
+11/23/2025
+
+
+
+1 week
+
+
+
+RBAC implemented
+
+
+
+
+
+Phase 3: Land Registration
+
+
+
+
+
+
+
+FR2.1–FR2.5
+
+
+
+11/24/2025
+
+
+
+12/21/2025
+
+
+
+4 weeks
+
+
+
+Land registration prototype
+
+
+
+
+
+
+
+
+
+Develop Solidity smart contract (LandRegistry.sol)
+
+
+
+FR2.2, FR2.4, FR2.5
+
+
+
+11/24/2025
+
+
+
+12/07/2025
+
+
+
+2 weeks
+
+
+
+Smart contract deployed on testnet
+
+
+
+
+
+
+
+
+
+Build Next.js land registration page with IPFS integration
+
+
+
+FR2.1, FR2.3
+
+
+
+12/08/2025
+
+
+
+12/21/2025
+
+
+
+2 weeks
+
+
+
+Land registration UI complete
+
+
+
+
+
+Phase 4: Land Ownership Verification
+
+
+
+
+
+
+
+FR3.1–FR3.3
+
+
+
+12/22/2025
+
+
+
+01/11/2026
+
+
+
+3 weeks
+
+
+
+Search functionality complete
+
+
+
+
+
+
+
+
+
+Implement search and ownership verification in smart contract
+
+
+
+FR3.1, FR3.2
+
+
+
+12/22/2025
+
+
+
+01/04/2026
+
+
+
+2 weeks
+
+
+
+Search functions in contract
+
+
+
+
+
+
+
+
+
+Build Next.js search page to display land details
+
+
+
+FR3.3
+
+
+
+01/05/2026
+
+
+
+01/11/2026
+
+
+
+1 week
+
+
+
+Search UI complete
+
+
+
+
+
+Phase 5: Land Transactions
+
+
+
+
+
+
+
+FR4.1–FR4.4
+
+
+
+01/12/2026
+
+
+
+02/01/2026
+
+
+
+3 weeks
+
+
+
+Transactions functional
+
+
+
+
+
+
+
+
+
+Extend smart contract for land transfers
+
+
+
+FR4.1–FR4.3
+
+
+
+01/12/2026
+
+
+
+01/25/2026
+
+
+
+2 weeks
+
+
+
+Transfer logic in contract
+
+
+
+
+
+
+
+
+
+Build Next.js transaction page
+
+
+
+FR4.1, FR4.4
+
+
+
+01/26/2026
+
+
+
+02/01/2026
+
+
+
+1 week
+
+
+
+Transaction UI complete
+
+
+
+
+
+Phase 6: Dispute Management
+
+
+
+
+
+
+
+FR5.1–FR5.4
+
+
+
+02/02/2026
+
+
+
+02/22/2026
+
+
+
+3 weeks
+
+
+
+Dispute system functional
+
+
+
+
+
+
+
+
+
+Develop DisputeRegistry.sol smart contract
+
+
+
+FR5.1, FR5.2, FR5.4
+
+
+
+02/02/2026
+
+
+
+02/15/2026
+
+
+
+2 weeks
+
+
+
+Dispute contract deployed
+
+
+
+
+
+
+
+
+
+Build Next.js dispute filing and tracking page
+
+
+
+FR5.1, FR5.3
+
+
+
+02/16/2026
+
+
+
+02/22/2026
+
+
+
+1 week
+
+
+
+Dispute UI complete
+
+
+
+
+
+Phase 7: Notifications & Audit Trails
+
+
+
+
+
+
+
+FR6.1–FR6.2
+
+
+
+02/23/2026
+
+
+
+03/08/2026
+
+
+
+2 weeks
+
+
+
+Notifications implemented
+
+
+
+
+
+
+
+
+
+Set up email/SMS notifications (Nodemailer, Africa’s Talking)
+
+
+
+FR6.1
+
+
+
+02/23/2026
+
+
+
+03/01/2026
+
+
+
+1 week
+
+
+
+Notifications functional
+
+
+
+
+
+
+
+
+
+Implement audit logging in MongoDB and blockchain
+
+
+
+FR6.2
+
+
+
+03/02/2026
+
+
+
+03/08/2026
+
+
+
+1 week
+
+
+
+Audit trails complete
+
+
+
+
+
+Phase 8: Mobile/Offline Support
+
+
+
+
+
+
+
+FR7.1–FR7.2
+
+
+
+03/09/2026
+
+
+
+03/22/2026
+
+
+
+2 weeks
+
+
+
+Mobile/offline access ready
+
+
+
+
+
+
+
+
+
+Configure Next.js as PWA (next-pwa)
+
+
+
+FR7.1
+
+
+
+03/09/2026
+
+
+
+03/15/2026
+
+
+
+1 week
+
+
+
+PWA functional
+
+
+
+
+
+
+
+
+
+Implement USSD/SMS with Africa’s Talking API
+
+
+
+FR7.2
+
+
+
+03/16/2026
+
+
+
+03/22/2026
+
+
+
+1 week
+
+
+
+USSD/SMS functional
+
+
+
+
+
+Phase 9: Integration & Security
+
+
+
+
+
+
+
+FR8.1–FR8.3
+
+
+
+03/23/2026
+
+
+
+04/05/2026
+
+
+
+2 weeks
+
+
+
+System fully integrated
+
+
+
+
+
+
+
+
+
+Integrate IPFS, Ethereum, and KYC provider
+
+
+
+FR8.1
+
+
+
+03/23/2026
+
+
+
+03/29/2026
+
+
+
+1 week
+
+
+
+Integrations complete
+
+
+
+
+
+
+
+
+
+Implement encryption and RBAC
+
+
+
+FR8.2, FR8.3
+
+
+
+03/30/2026
+
+
+
+04/05/2026
+
+
+
+1 week
+
+
+
+Security measures in place
+
+
+
+
+
+Phase 10: Testing
+
+
+
+
+
+
+
+-
+
+
+
+04/06/2026
+
+
+
+04/12/2026
+
+
+
+1 week
+
+
+
+System tested
+
+
+
+
+
+
+
+
+
+Unit testing (smart contracts, backend)
+
+
+
+-
+
+
+
+04/06/2026
+
+
+
+04/09/2026
+
+
+
+4 days
+
+
+
+Unit tests pass
+
+
+
+
+
+
+
+
+
+Integration and end-to-end testing
+
+
+
+-
+
+
+
+04/10/2026
+
+
+
+04/12/2026
+
+
+
+3 days
+
+
+
+System fully functional
+
+
+
+
+
+Phase 11: Documentation & Presentation
+
+
+
+
+
+
+
+-
+
+
+
+04/13/2026
+
+
+
+04/15/2026
+
+
+
+3 days
+
+
+
+Project ready for submission
+
+
+
+
+
+
+
+
+
+Write project report and documentation
+
+
+
+-
+
+
+
+04/13/2026
+
+
+
+04/14/2026
+
+
+
+2 days
+
+
+
+Report complete
+
+
+
+
+
+
+
+
+
+Prepare presentation and demo
+
+
+
+-
+
+
+
+04/15/2026
+
+
+
+04/15/2026
+
+
+
+1 day
+
+
+
+Presentation ready
+
+Notes
