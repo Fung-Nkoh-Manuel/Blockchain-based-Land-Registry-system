@@ -324,8 +324,8 @@ contracts through this project.
 
 Project Calendar: Blockchain Land Registry System
 
-Start Date: October 16, 2025
-End Date: April 15, 2026
+Start Date: 10/16/2025
+End Date: 04/15/2026
 Objective: Develop a blockchain-based land registry system with Next.js, Ethereum, IPFS, and USSD/SMS support.
 
 
@@ -368,41 +368,11 @@ Phase 1: Planning and Setup
 
 
 
-
-
-
-
-
-
-
-
-10/16/2025
-
-
-
-11/02/2025
-
-
-
-2.5 weeks
-
-
-
-Project plan completed
-
-
-
-
-
-
-
-
-
 Research blockchain (Ethereum, Solidity), Next.js, IPFS, and USSD APIs
 
 
 
--
+None
 
 
 
@@ -424,7 +394,7 @@ Understanding of tech stack
 
 
 
-
+Phase 1: Planning and Setup
 
 
 
@@ -432,7 +402,7 @@ Set up development environment (Node.js, Truffle, Next.js, MongoDB, Infura)
 
 
 
--
+None
 
 
 
@@ -455,36 +425,6 @@ Dev environment ready
 
 
 Phase 2: User Management
-
-
-
-
-
-
-
-FR1.1–FR1.3
-
-
-
-11/03/2025
-
-
-
-11/23/2025
-
-
-
-3 weeks
-
-
-
-User management functional
-
-
-
-
-
-
 
 
 
@@ -514,7 +454,7 @@ User registration with KYC
 
 
 
-
+Phase 2: User Management
 
 
 
@@ -548,36 +488,6 @@ Phase 3: Land Registration
 
 
 
-
-
-
-
-FR2.1–FR2.5
-
-
-
-11/24/2025
-
-
-
-12/21/2025
-
-
-
-4 weeks
-
-
-
-Land registration prototype
-
-
-
-
-
-
-
-
-
 Develop Solidity smart contract (LandRegistry.sol)
 
 
@@ -604,7 +514,7 @@ Smart contract deployed on testnet
 
 
 
-
+Phase 3: Land Registration
 
 
 
@@ -638,36 +548,6 @@ Phase 4: Land Ownership Verification
 
 
 
-
-
-
-
-FR3.1–FR3.3
-
-
-
-12/22/2025
-
-
-
-01/11/2026
-
-
-
-3 weeks
-
-
-
-Search functionality complete
-
-
-
-
-
-
-
-
-
 Implement search and ownership verification in smart contract
 
 
@@ -694,7 +574,7 @@ Search functions in contract
 
 
 
-
+Phase 4: Land Ownership Verification
 
 
 
@@ -728,41 +608,11 @@ Phase 5: Land Transactions
 
 
 
-
-
-
-
-FR4.1–FR4.4
-
-
-
-01/12/2026
-
-
-
-02/01/2026
-
-
-
-3 weeks
-
-
-
-Transactions functional
-
-
-
-
-
-
-
-
-
 Extend smart contract for land transfers
 
 
 
-FR4.1–FR4.3
+FR4.1, FR4.2, FR4.3
 
 
 
@@ -784,7 +634,7 @@ Transfer logic in contract
 
 
 
-
+Phase 5: Land Transactions
 
 
 
@@ -818,36 +668,6 @@ Phase 6: Dispute Management
 
 
 
-
-
-
-
-FR5.1–FR5.4
-
-
-
-02/02/2026
-
-
-
-02/22/2026
-
-
-
-3 weeks
-
-
-
-Dispute system functional
-
-
-
-
-
-
-
-
-
 Develop DisputeRegistry.sol smart contract
 
 
@@ -874,7 +694,7 @@ Dispute contract deployed
 
 
 
-
+Phase 6: Dispute Management
 
 
 
@@ -908,37 +728,7 @@ Phase 7: Notifications & Audit Trails
 
 
 
-
-
-
-
-FR6.1–FR6.2
-
-
-
-02/23/2026
-
-
-
-03/08/2026
-
-
-
-2 weeks
-
-
-
-Notifications implemented
-
-
-
-
-
-
-
-
-
-Set up email/SMS notifications (Nodemailer, Africa’s Talking)
+Set up email/SMS notifications (Nodemailer, Africa's Talking)
 
 
 
@@ -964,7 +754,7 @@ Notifications functional
 
 
 
-
+Phase 7: Notifications & Audit Trails
 
 
 
@@ -998,36 +788,6 @@ Phase 8: Mobile/Offline Support
 
 
 
-
-
-
-
-FR7.1–FR7.2
-
-
-
-03/09/2026
-
-
-
-03/22/2026
-
-
-
-2 weeks
-
-
-
-Mobile/offline access ready
-
-
-
-
-
-
-
-
-
 Configure Next.js as PWA (next-pwa)
 
 
@@ -1054,11 +814,11 @@ PWA functional
 
 
 
+Phase 8: Mobile/Offline Support
 
 
 
-
-Implement USSD/SMS with Africa’s Talking API
+Implement USSD/SMS with Africa's Talking API
 
 
 
@@ -1088,36 +848,6 @@ Phase 9: Integration & Security
 
 
 
-
-
-
-
-FR8.1–FR8.3
-
-
-
-03/23/2026
-
-
-
-04/05/2026
-
-
-
-2 weeks
-
-
-
-System fully integrated
-
-
-
-
-
-
-
-
-
 Integrate IPFS, Ethereum, and KYC provider
 
 
@@ -1144,7 +874,7 @@ Integrations complete
 
 
 
-
+Phase 9: Integration & Security
 
 
 
@@ -1178,41 +908,11 @@ Phase 10: Testing
 
 
 
-
-
-
-
--
-
-
-
-04/06/2026
-
-
-
-04/12/2026
-
-
-
-1 week
-
-
-
-System tested
-
-
-
-
-
-
-
-
-
 Unit testing (smart contracts, backend)
 
 
 
--
+None
 
 
 
@@ -1234,7 +934,7 @@ Unit tests pass
 
 
 
-
+Phase 10: Testing
 
 
 
@@ -1242,7 +942,7 @@ Integration and end-to-end testing
 
 
 
--
+None
 
 
 
@@ -1268,41 +968,11 @@ Phase 11: Documentation & Presentation
 
 
 
-
-
-
-
--
-
-
-
-04/13/2026
-
-
-
-04/15/2026
-
-
-
-3 days
-
-
-
-Project ready for submission
-
-
-
-
-
-
-
-
-
 Write project report and documentation
 
 
 
--
+None
 
 
 
@@ -1324,7 +994,7 @@ Report complete
 
 
 
-
+Phase 11: Documentation & Presentation
 
 
 
@@ -1332,7 +1002,7 @@ Prepare presentation and demo
 
 
 
--
+None
 
 
 
@@ -1351,3 +1021,25 @@ Prepare presentation and demo
 Presentation ready
 
 Notes
+
+
+
+
+
+Buffer: The schedule assumes a 6-month timeline. Add a 1-2 week buffer for delays by starting earlier or compressing documentation time.
+
+
+
+Milestones: Track completion of each phase using tools like GitHub Projects or Notion.
+
+
+
+Testing: Use Mocha/Chai for Node.js, Hardhat for smart contracts, and Cypress for Next.js testing.
+
+
+
+Documentation: Include system architecture, code explanation, setup instructions, and test results in the report.
+
+
+
+Dependencies: Ensure access to Infura (IPFS/Ethereum), Africa's Talking (USSD/SMS), and a KYC provider (e.g., Shufti Pro or manual process).
